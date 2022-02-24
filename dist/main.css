@@ -1,0 +1,103 @@
+                /* import normalize css */
+                
+                @import url('./normalize.css');
+                /* default start */
+                
+                 :root {
+                    --blue: #1992D4;
+                    --yellow: #F0B429;
+                    --bg-main: #E2E8F0;
+                    --text-dark-1: #636363;
+                    --text-dark-2: #333333;
+                    --font-family: 'Roboto', sans-serif;
+                }
+                
+                html * {
+                    font-family: var(--font-family);
+                }
+                
+                body {
+                    display: flex;
+                }
+                /* default end */
+                /* navigation start */
+                
+                .navigation {
+                    background-color: var(--blue);
+                    color: #fff;
+                    display: grid;
+                    max-width: 25vw;
+                    height: 100vh;
+                    padding: 0 1rem;
+                }
+                
+                .link {
+                    color: #fff;
+                    text-decoration: none;
+                    font-size: 1.5rem;
+                }
+                
+                .icon-left {
+                    display: flex;
+                    gap: 1rem;
+                    align-items: center;
+                }
+                
+                .icon-left svg {
+                    width: 2rem;
+                    height: 2rem;
+                }
+                /* navigation end */
+                /* header start */
+                
+                .body-header {
+                    background-color: #fff;
+                    display: flex;
+                    flex-direction: column;
+                    width: 100%;
+                    height: auto;
+                }
+                
+                .row-1 {
+                    display: flex;
+                    flex-direction: row;
+                    width: 100%;
+                    margin-top: 1.5rem;
+                }
+                /* srarch form start */
+                
+                .searchform {
+                    display: flex;
+                    flex-direction: row-reverse;
+                    width: 75%;
+                    justify-content: space-around;
+                    align-items: center;
+                }
+                
+                .searchform button {
+                    border: none;
+                    background: none;
+                    font-size: 2rem;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+                
+                .searchform input {
+                    border: none;
+                    background: var(--bg-main);
+                    border-radius: 2rem;
+                    width: 90%;
+                    font-size: 2rem;
+                }
+                /* srarch form end */
+                /* notification start */
+                
+                .notification {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-size: 2rem;
+                }
+                /* notification end */
+                /* header end */

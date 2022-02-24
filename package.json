@@ -1,0 +1,40 @@
+{
+    "name": "dashboard",
+    "version": "1.0.0",
+    "description": "dashboard project (odin project assignment) ",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js",
+        "tailwind": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+        "nodemon": "nodemon --watch src app.js -e js,html,css",
+        "nodemon-tailwind": "npm-run-all --parallel nodemon tailwind",
+        "dev": "npm-run-all --parallel start tailwind",
+        "all": "npm-run-all --parallel start tailwind nodemon"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/asifthewebguy/dashborad.git"
+    },
+    "keywords": [
+        "dashboard",
+        "html",
+        "css",
+        "js"
+    ],
+    "author": "Mohammad Asif Ullah Chowdhury",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/asifthewebguy/dashborad/issues"
+    },
+    "homepage": "https://github.com/asifthewebguy/dashborad#readme",
+    "devDependencies": {
+        "connect-livereload": "^0.6.1",
+        "livereload": "^0.9.3",
+        "npm-run-all": "^4.1.5",
+        "tailwindcss": "^3.0.23"
+    },
+    "dependencies": {
+        "express": "^4.17.3",
+        "nodemon": "^2.0.15"
+    }
+}
