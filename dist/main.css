@@ -101,6 +101,12 @@ body {
     margin-top: 1.5rem;
 }
 
+.row-2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
 
 /* srarch form start */
 
@@ -139,11 +145,65 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 2rem;
+    font-size: 2.8rem;
 }
 
 
 /* notification end */
+
+
+/* user start */
+
+.user {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.user-info {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+
+/* user end */
+
+
+/* greetings start */
+
+.greetings {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.salutation {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.user-full-name {
+    font-size: 2.4rem;
+    font-weight: bold;
+}
+
+.username::before {
+    content: '(';
+}
+
+.username::after {
+    content: ')';
+}
+
+
+/* greetings end */
+
+
+/* button holder start */
+
+
+/* button holder end */
 
 
 /* header end */
