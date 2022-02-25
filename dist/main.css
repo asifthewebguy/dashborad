@@ -1,6 +1,7 @@
 /* import normalize css */
 
 @import url('./normalize.css');
+@import url('./icons.css');
 
 /* default start */
 
@@ -11,6 +12,7 @@
     --text-dark-1: #636363;
     --text-dark-2: #333333;
     --font-family: 'Roboto', sans-serif;
+    font-size: 10px;
 }
 
 html * {
@@ -21,6 +23,10 @@ body {
     width: 100vw;
     display: grid;
     grid-template: 100% / 21% 79%;
+}
+
+.container {
+    background-color: var(--bg-main);
 }
 
 
@@ -37,13 +43,29 @@ body {
 }
 
 .header {
-    font-size: ;
+    font-size: 2.8rem;
+    margin-bottom: 5.2rem;
+}
+
+.pages {
+    margin-bottom: 14.8rem;
+}
+
+.header i {
+    font-size: 4.8rem;
 }
 
 .link {
     color: #fff;
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 2.2rem;
+    margin: 1.5rem 0;
+    margin-left: .5rem;
+}
+
+.link i {
+    color: currentColor;
+    font-size: 2.4rem;
 }
 
 .icon-left {

@@ -1,0 +1,60 @@
+i {
+    display: block;
+    width: 1em;
+    height: 1em;
+    background-color: currentColor;
+    mask-repeat: no-repeat;
+    -webkit-mask-repeat: no-repeat;
+    mask-size: contain;
+    -webkit-mask-size: contain;
+}
+
+.dashboard {
+    mask: url(./assets/icons/view-dashboard.svg) no-repeat center center / contain;
+    -webkit-mask: url(./assets/icons/view-dashboard.svg) no-repeat center center / contain;
+}
+
+.home {
+    mask: url(./assets/icons/home.svg) no-repeat center center / contain;
+    -webkit-mask: url(./assets/icons/home.svg) no-repeat center center / contain;
+}
+
+.profile {
+    mask: url(./assets/icons/card-account-details-outline.svg) no-repeat center center / contain;
+    -webkit-mask: url(./assets/icons/card-account-details-outline.svg) no-repeat center center / contain;
+}
+
+.messages {
+    mask: url(./assets/icons/message-reply-outline.svg) no-repeat center center / contain;
+    -webkit-mask: url(./assets/icons/message-reply-outline.svg) no-repeat center center / contain;
+}
+
+.history {
+    mask: url(./assets/icons/clock-outline.svg) no-repeat center center / contain;
+    -webkit-mask: url(./assets/icons/clock-outline.svg) no-repeat center center / contain;
+}
+
+.tasks {
+    mask: url(./assets/icons/note-multiple.svg) no-repeat center center / contain;
+    -webkit-mask: url(./assets/icons/note-multiple.svg) no-repeat center center / contain;
+}
+
+.community {
+    mask: url(./assets/icons/account-group.svg) no-repeat center center / contain;
+    -webkit-mask: url(./assets/icons/account-group.svg) no-repeat center center / contain;
+}
+
+.settings {
+    mask: url(./assets/icons/cog.svg) no-repeat center center / contain;
+    -webkit-mask: url(./assets/icons/cog.svg) no-repeat center center / contain;
+}
+
+.help {
+    mask: url(./assets/icons/help-box.svg) no-repeat center center / contain;
+    -webkit-mask: url(./assets/icons/help-box.svg) no-repeat center center / contain;
+}
+
+.privacy {
+    mask: url(./assets/icons/shield-check.svg) no-repeat center center / contain;
+    -webkit-mask: url(./assets/icons/shield-check.svg) no-repeat center center / contain;
+}
