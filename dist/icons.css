@@ -3,10 +3,6 @@ i {
     width: 1em;
     height: 1em;
     background-color: currentColor;
-    mask-repeat: no-repeat;
-    -webkit-mask-repeat: no-repeat;
-    mask-size: contain;
-    -webkit-mask-size: contain;
 }
 
 .dashboard {
@@ -57,4 +53,29 @@ i {
 .privacy {
     mask: url(./assets/icons/shield-check.svg) no-repeat center center / contain;
     -webkit-mask: url(./assets/icons/shield-check.svg) no-repeat center center / contain;
+}
+
+.search {
+    mask: url(./assets/icons/magnify.svg) no-repeat center center / contain;
+    -webkit-mask: url(./assets/icons/magnify.svg) no-repeat center center / contain;
+}
+
+.notification {
+    mask: url(./assets/icons/bell-ring.svg) no-repeat center center / contain;
+    -webkit-mask: url(./assets/icons/bell-ring.svg) no-repeat center center / contain;
+}
+
+.star {
+    mask: url(./assets/icons/star-plus-outline.svg) no-repeat center center / contain;
+    -webkit-mask: url(./assets/icons/star-plus-outline.svg) no-repeat center center / contain;
+}
+
+.watch {
+    mask: url(./assets/icons/eye-plus-outline.svg) no-repeat center center / contain;
+    -webkit-mask: url(./assets/icons/eye-plus-outline.svg) no-repeat center center / contain;
+}
+
+.fork {
+    mask: url(./assets/icons/source-fork.svg) no-repeat center center / contain;
+    -webkit-mask: url(./assets/icons/source-fork.svg) no-repeat center center / contain;
 }
