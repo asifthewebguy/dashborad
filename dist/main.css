@@ -13,6 +13,7 @@
     --text-dark-2: #333333;
     --font-family: 'Roboto', sans-serif;
     font-size: 10px;
+    --p-b-r: 0.8rem;
 }
 
 html * {
@@ -226,3 +227,68 @@ body {
 
 
 /* header end */
+
+
+/* projects-announcements start */
+
+.projects-announcemets {
+    display: grid;
+    grid-template: 100% / 70% 30%;
+    gap: 20px;
+}
+
+
+/* project-grid start*/
+
+.project-grid {
+    display: grid;
+    grid-template: auto / 50% 50%;
+    gap: 25px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+
+/* project-item start */
+
+.project-item {
+    background: var(--yellow);
+    border-radius: var(--p-b-r);
+}
+
+.pi-body {
+    background-color: #fff;
+    margin-left: var(--p-b-r);
+    border-radius: 0 var(--p-b-r) var(--p-b-r) 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.pi-header {
+    margin: 0;
+    font-size: 1.8rem;
+}
+
+.pi-content {
+    font-size: 1.6rem;
+    font-weight: regular;
+    color: #636363;
+}
+
+.pi-footer-share {
+    align-self: flex-end;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 2rem;
+    color: #000;
+}
+
+
+/* project-item end */
+
+
+/* project-grid end*/
+
+
+/* projects-announcements end */
