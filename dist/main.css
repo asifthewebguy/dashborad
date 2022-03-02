@@ -24,10 +24,15 @@ body {
     width: 100vw;
     display: grid;
     grid-template: 100% / 21% 79%;
+    min-height: 100vh;
 }
 
 .container {
     background-color: var(--bg-main);
+}
+
+button {
+    cursor: pointer;
 }
 
 
@@ -233,8 +238,14 @@ body {
 
 .projects-announcemets {
     display: grid;
-    grid-template: 100% / 70% 30%;
-    gap: 20px;
+    grid-template: 100% / 70% 29%;
+}
+
+.section-header {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
 }
 
 
@@ -242,8 +253,8 @@ body {
 
 .project-grid {
     display: grid;
-    grid-template: auto / 50% 50%;
-    gap: 25px;
+    grid-template: auto / 49% 49%;
+    gap: 4% 2%;
     margin-left: 2rem;
     margin-right: 2rem;
 }
@@ -254,6 +265,9 @@ body {
 .project-item {
     background: var(--yellow);
     border-radius: var(--p-b-r);
+    width: 100%;
+    height: 100%;
+    display: inline-table;
 }
 
 .pi-body {
@@ -263,6 +277,7 @@ body {
     height: 100%;
     display: flex;
     flex-direction: column;
+    padding: var(--p-b-r);
 }
 
 .pi-header {
@@ -282,6 +297,16 @@ body {
     justify-content: flex-end;
     font-size: 2rem;
     color: #000;
+    gap: 2rem;
+}
+
+.pi-footer-share button {
+    border: none;
+    background: none;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -289,6 +314,37 @@ body {
 
 
 /* project-grid end*/
+
+
+/* announencements start */
+
+.announcements {
+    width: 100%;
+    margin: 0;
+}
+
+.announcement-block {
+    background: var(--yellow);
+    border-radius: var(--p-b-r);
+    width: 100%;
+    display: block;
+}
+
+.announcement-list {
+    background: #fff;
+    border-radius: 0 var(--p-b-r) var(--p-b-r) 0;
+    margin-left: var(--p-b-r);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.announcement-list ul {
+    list-style: none;
+    margin: 0;
+}
+
+
+/* announencements end */
 
 
 /* projects-announcements end */

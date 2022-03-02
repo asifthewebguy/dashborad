@@ -1,4 +1,3 @@
-const log = require('console');
 const express = require('express');
 const livereload = require('livereload');
 const connectLivereload = require('connect-livereload');
